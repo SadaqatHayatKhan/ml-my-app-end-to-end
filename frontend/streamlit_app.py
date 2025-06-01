@@ -19,7 +19,7 @@ The model analyzes transaction features and provides a fraud probability score.
 """)
 
 # API endpoint
-API_ENDPOINT = "http://localhost:8000/predict"
+API_ENDPOINT = "https://mlapp-backend-huh8gscgazc5fkbh.centralus-01.azurewebsites.net/predict"
 
 def predict_fraud(features):
     try:
